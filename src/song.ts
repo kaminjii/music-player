@@ -507,6 +507,14 @@ const VinylMusicPlayer: React.FC = () => {
           <p className="song-artist" style={{ 
             color: currentSong.theme.textSecondary 
           }}>{currentSong.artist}</p>
+          
+          {/* Mood Indicator */}
+          <div className="mood-indicator" style={{
+            background: `${currentSong.theme.accent}20`,
+            borderColor: currentSong.theme.accent
+          }}>
+            {currentSong.theme.mood}
+          </div>
         </div>
 
         {/* Progress Bar */}

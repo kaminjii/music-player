@@ -1,5 +1,5 @@
 import React from 'react';
-import type { SongVibe } from './songData';
+import type { SongVibe } from './song';
 
 interface SongListProps {
   isOpen: boolean;
